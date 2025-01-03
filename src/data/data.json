@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Apertura",
+    "description": "Juan, gracias por haberte hecho del tiempo para este zoom, déjame ser 100% directo, la intención de esta video-llamada es mostrarte un poco nuestros servicios y si alguno realmente te sirve que podamos hacer negocios juntos, cómo lo ves?",
+    "nameFilter": "apertura"
+  },
+  {
+    "id": 2,
+    "title": "DEL 1 AL 10",
+    "description": "Juan, déjame preguntarte, esto es algo que realmente querés hacer? Sisi, realmente lo quiero hacer. Bueno, porque si es algo que realmente querés hacer, el dinero va a aparecer. Hagamos el primer pago y arrancamos.",
+    "nameFilter": "cierre"
+    
+  },
+  {
+    "id": 3,
+    "title": "Suficiente valor",
+    "description": "Juan, le viste suficiente valor al producto para invertir hoy mismo, o querés que te muestre algo más?",
+    "nameFilter": "cierre"
+
+  },
+  {
+    "id": 4,
+    "title": "Razón por la que no",
+    "description": "Juan, en base a todo lo que te mostré, habría alguna razón por la cual no hagamos este negocio hoy mismo?",
+    "nameFilter": "cierre"
+  },
+  {
+    "id": 5,
+    "title": "Necesito tu okey",
+    "description": "Juan, para mí ya estás dentro del programa, solo necesito tu OKEY y lo hacemos oficial.",
+    "nameFilter": "cierre"
+  },
+  {
+    "id": 6,
+    "title": "Candidato perfecto",
+    "description": "Juan, mirá, sos el candidato perfecto para el producto que tengo, simplemente necesito tu okey, hacemos el pago y hoy mismo arrancamos.",
+    "nameFilter": "cierre"
+  },
+  {
+    "id": 7,
+    "title": "Si…lo harías hoy",
+    "description": "Juan, si gracias al campamento ventas te puedo garantizar que en el mes de junio vas a duplicar tus cierres, lo tomarías hoy mismo?",
+    "nameFilter": "cierre"
+  },
+  {
+    "id": 8,
+    "title": "Situación",
+    "description": "Cuál es tu Situación Actual? Ya tomaste algún Curso de Venta? Cuál es tu Volumen de Venta Actual?",
+    "nameFilter": "cualificacion"
+  },
+  {
+    "id": 9,
+    "title": "Objetivo",
+    "description": "Cuál es tu Objetivo de Venta para Abril? Qué objetivo tienes con este producto? Qué métrica podríamos utilizar para medir el éxito de este Programa? Cuáles son tus Objetivos a Corto-Mediano-Largo Plazo?",
+    "nameFilter": "cualificacion"
+  },
+  {
+    "id": 10,
+    "title": "Problema",
+    "description": "Por qué crees que no estás logrando esas metas de venta? Cuál dirías que es tu mayor obstáculo a la hora de vender? Si este programa te sacara de encima un problema, cuál sería?",
+    "nameFilter": "cualificacion"
+  },
+  {
+    "id": 11,
+    "title": "Intereses",
+    "description": "Porqué te interesa esto? Porqué te interesa ahora? A la hora de decidir un entrenamiento de venta, qué sería importante para vos que incluya? Cuál es el principal valor que le ves al campamento? Qué debería incluir para que me digas 'es lo que estoy buscando'?",
+    "nameFilter": "cualificacion"
+  },
+  {
+    "id": 12,
+    "title": "EL DINERO APARECE",
+    "nameId": "dinero1",
+    "description": "Juan, déjame preguntarte, esto es algo que realmente querés hacer? Bueno, porque si es algo que realmente querés hacer, el dinero va a aparecer. Hagamos el primer pago y arrancamos.",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 13,
+    "title": "CERTEZA DE RESULTADO",
+    "nameId": "dinero2",
+    "description": "Juan, si te garantizo que con este programa vas a duplicar tus cierres de venta en el primer mes, lo harías? Listo, ese es mi compromiso. Con qué medio vas a hacer el pago: Paypal, Payoneer o Mercado Pago?",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 14,
+    "title": "NINGUNO TIENE EL DINERO",
+    "nameId": "dinero3",
+    "description": "Juan, el 90% de las personas que compran este producto no tienen el dinero, pero lo hacen igual porque saben que es una buena inversión en su futuro. Hagamos el primer pago y arranquemos.",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 15,
+    "title": "SI PASA, PASA",
+    "nameId": "dinero4",
+    "description": "No te preocupes, antes te quiero preguntar: Si el dinero estuviese disponible, lo harías? Listo. Pasemos la tarjeta y lo intentemos. Si no tiene fondos, no te lo van a debitar. Y si pasa el pago, ya estás dentro.",
+    "nameFilter": "objeciones"
+
+  },
+  {
+    "id": 16,
+    "title": "LO QUE SÍ TIENES",
+    "nameId": "dinero5",
+    "description": "Juan, entiendo que no tengas el dinero, pero déjame decirte que SÍ tenés: Tenés el problema de no sentirte cómodo con tu cuerpo físico y hasta que no resolvamos ese problema, no vas a poder enfocarte al 100% en generar dinero. Hagamos el primer pago, y solucionemos esto de una vez por todas.",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 17,
+    "title": "LOS EMPRENDEDORES INVIERTEN PRIMERO",
+    "nameId": "dinero6",
+    "description": "Juan, ya sé que no tenés el dinero, sos un emprendedor. Los emprendedores invierten primero, y tienen el dinero después. Cuánto dinero tenés disponible para hacer el primer pago y arrancar con esto de una buena vez?",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 18,
+    "title": "EL QUE BUSCA, ENCUENTRA",
+    "description": "Perfecto Juan, si no fuera por el dinero, lo harías? No te preocupes, es cuestión de buscarlo. El que busca encuentra. Cuánto dinero tenés en tu cuenta de Paypal? Y en Mercadopago? Y en tu CBU Personal? Listo, con esa suma alcanza para el primer pago, hagamos las transferencias y nos lo sacamos de encima.",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 19,
+    "title": "EN LOS PRÓXIMOS 10 MINUTOS",
+    "description": "Teo, no tengo el dinero. No te preocupes. Dejame preguntarte, del 1 al 10 qué tan comprometido estás con obtener los resultados que me habías mencionado anteriormente? Un 10. Perfecto, de dónde podemos conseguir esos 90 USD que nos faltan en los próximos 10 minutos? RESPUESTA. Listo, hagamos que suceda. Busquemos ese dinero ahora mismo.",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 20,
+    "title": "STORYTELLING",
+    "description": "Teo, no tengo el dinero. No te preocupes. Ahora déjame preguntarte, la decisión de cambiar tu condición física ya está tomada? Sí, definitivamente. Perfecto, déjame contarte el caso de Mario: No tenía dinero, vivía a 28 kilómetros del gimnasio y estaba saliendo de una enfermedad. Pero estaba decidido a cambiar su condición física, vendió su computadora y le pidió 100 USD prestados a su abuela para entrar. Así se ve Mario hoy, logró bajar el 100% de su sobrepeso en menos de 4 meses. Lo que sigue después de tomar una decisión es hacer lo que haga falta para volverla realidad. Hagámonos de ese dinero ahora mismo, y comencemos con el programa de una buena vez.",
+    "nameFilter": "objeciones"
+  },
+  {
+    "id": 21,
+    "title": "VA A SER UNA DE ESAS DECISIONES",
+    "description": "Teo, no tengo el dinero. Juan, entiendo perfectamente. Ahora, te quiero preguntar, cuántas veces invertiste en algo que inicialmente no tenías el dinero, pero lo hiciste igual, y valió la pena haberlo hecho? No, no me acuerdo, Teo. Te aseguro que en algún momento de tu vida tomaste una decisión que no fue fácil de tomar, y aún así lo hiciste. Debe haber alguna en tu mente... RESPUESTA. Perfecto, te aseguro que esta es una de esas decisiones. Que en el momento cuesta desprenderse del dinero, pero cuando volteás atrás, decís menos mal que lo hice. Juan, hagamos el primer pago, y arranquemos con esto.",
+    "nameFilter": "objeciones"
+  }
+]
