@@ -17,7 +17,7 @@ function InputFilter() {
     console.log(filteredSearch)
   } 
   return (
-    <div className='w-full flex items-center pr-5 border rounded-md relative'>
+    <div className='bg-white w-full flex items-center pr-5 border rounded-md relative'>
        <CiSearch className='ml-4 absolute text-2xl' />
     <input className='h-12 w-full  rounded-md pl-12 outline-none' type="text" placeholder='Search...' onChange={handleChange} />
    

@@ -2,9 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function BtnFilter(data) {
+
   return (
     <NavLink
-      to={`/${data.data}`}
+      to={`/wiki/${data.data}`}
       className={({ isActive }) =>
         `shadow-md border-gray-400   text-black py-2 px-4 rounded ${
           isActive ? "bg-blue-500 text-white " : "bg-white text-black hover:bg-blue-400 hover:text-white"
