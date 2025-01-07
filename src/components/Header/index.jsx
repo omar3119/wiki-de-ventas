@@ -16,23 +16,29 @@ function Header() {
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   }
-  const navMenu = ["Home","Wiki","Contact"];
+  const navMenu = ["Home", "Wiki", "Contact"];
   return (
     <header className="w-full dark:bg-[#131b21] dark:text-white flex justify-center border-b-[2px] dark:border-b-[1px] dark:border-gray-500">
       <div className="w-full max-w-[1024px] flex items-center justify-between py-4 px-6">
-        <h1 className="text-3xl font-bold text-center ">Wiki Search</h1>
+        <h1 className="text-xl font-bold text-center underline md:text-3xl">
+          Wiki
+        </h1>
         <nav>
           <ul className="flex space-x-4">
-            {
-              navMenu.map((item)=>(
-                <li>
-                <NavLink to={item === "Home" ? "/" : `/${item.toLowerCase()}`} className="text-lg font-semibold" end>
+            {navMenu.map((item) => (
+              <li key={item}>
+                <NavLink
+                  to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-lg font-semibold text-blue-400 underline"
+                      : "text-lg font-semibold"
+                  }
+                >
                   {item}
                 </NavLink>
               </li>
-              ))
-            }
-
+            ))}
           </ul>
         </nav>
 
