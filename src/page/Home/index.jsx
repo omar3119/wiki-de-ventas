@@ -1,4 +1,5 @@
 import Layout from "../../Layout";
+import LoginPage from "../LoginPage";
 
 function Home() {
   return (

@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from "react";
 import Layout from "../../Layout";
 
 //Components
-import Card from "../../components/Card";
 import InputFilter from "../../components/InputFilter";
 import ButtonFilter from "../../components/BtnFilter";
 
@@ -43,7 +42,7 @@ function Wiki() {
 
   return (
     <Layout>
-    <div className="w-full grid  grid-cols-1 gap-4 mt-10  max-w-[1024px]">
+    <div className="w-full grid  grid-cols-1 gap-4 mt-10  max-w-[1024px] relative z-0">
       <div className="w-full px-5">
         <InputFilter />
         <nav className="w-full flex flex-wrap gap-4 mt-5">

@@ -1,10 +1,7 @@
-import {
-  HashRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 //Components
+import CardComplete from "./components/CardComplete";
 
 //Pages
 import Home from "../src/page/Home";
@@ -17,26 +14,29 @@ import Contact from "../src/page/Contact";
 //context
 import { FilterCardProvider } from "../src/context";
 import Header from "./components/Header";
+import { AuthProvider, useAuth } from "./context/auth";
 //Styles
 import "./App.css";
+import LoginPage from "./page/LoginPage";
 
 function App() {
   return (
     <HashRouter>
-      <FilterCardProvider>
-        <Header />
-
-        <Routes>
-        <Route path="/" element={<Home />}/>
-
-          <Route path={"/wiki"} element={<Wiki />}>
-            <Route path={":nameFilter"} element={<WikiPage />} />
-          </Route>
-          <Route path="/contact" element={<Contact />} />
-
-          <Route path="/*" element={<NoFound />} />
-        </Routes>
-      </FilterCardProvider>
+      <AuthProvider>
+        <FilterCardProvider>
+          <CardComplete />
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path={"/wiki"} element={<Wiki />}>
+              <Route path={":nameFilter"} element={<WikiPage />} />
+            </Route>
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/*" element={<NoFound />} />
+          </Routes>
+        </FilterCardProvider>
+      </AuthProvider>
     </HashRouter>
   );
 }
