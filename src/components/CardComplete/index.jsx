@@ -21,17 +21,17 @@ function CardComplete() {
     >
       <div className="w-full bg-white text-black p-5 rounded-lg shadow-lg md:max-w-[460px] dark:border dark:border-gray-500 dark:bg-[#1E2028] dark:text-white">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-semibold">{showCardId[0].title}</h2>
+          <h2 className="text-lg font-semibold">{showCardId[0]?.title}</h2>
           <MdClear
             className="text-2xl cursor-pointer text-black dark:text-white hover:bg-red-500 rounded-sm"
             onClick={removeCard} title="Close"
           />
         </div>
         <p className="overflow-hidden text-xl ">
-        {showCardId[0].description}
+        {showCardId[0]?.description}
         </p>
         <button className="bg-[#1f55dda2] text-white px-2 mt-4 rounded-full text-[12px] border ">
-          {showCardId[0].nameFilter}
+          {showCardId[0]?.nameFilter}
         </button>
       </div>
     </div>
