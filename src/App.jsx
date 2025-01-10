@@ -1,4 +1,5 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
+import {useState} from "react";
 
 //Components
 import CardComplete from "./components/CardComplete";
@@ -20,6 +21,7 @@ import "./App.css";
 import LoginPage from "./page/LoginPage";
 
 function App() {
+  const [url, setUrl] = useState("/wiki");
   return (
     <HashRouter>
       <AuthProvider>
@@ -28,7 +30,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path={"/wiki"} element={<Wiki />}>
+            <Route path={url} element={<Wiki />}>
               <Route path={":nameFilter"} element={<WikiPage />} />
             </Route>
             <Route path="/contact" element={<Contact />} />

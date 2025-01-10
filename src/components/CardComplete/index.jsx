@@ -23,7 +23,7 @@ function CardComplete() {
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold">{showCardId[0]?.title}</h2>
           <MdClear
-            className="text-2xl cursor-pointer text-black dark:text-white hover:bg-red-500 rounded-sm"
+            className="text-2xl cursor-pointer text-white bg-red-500 rounded-sm "
             onClick={removeCard} title="Close"
           />
         </div>

@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 
+
 function BtnFilter(data) {
+
+  const [$url, setUrl] = useState("all")
 
   return (
     <NavLink
